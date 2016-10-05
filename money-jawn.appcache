@@ -1,7 +1,7 @@
 CACHE MANIFEST
 /index.html
 /favicons/
-/build/main.9bc3195b.js
-build/main.9bc3195b.js
-/build/main.c03e652e.css
-build/main.c03e652e.css
+css/main.c03e652e.css
+css/main.c03e652e.css.map
+js/main.c05046e1.js
+js/main.c05046e1.js.map
