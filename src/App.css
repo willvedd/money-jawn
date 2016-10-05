@@ -1,0 +1,133 @@
+.App{
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+
+nav.navigation{
+  background-color: #003282;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+nav.navigation a{
+  color: #FFFFFF;
+  display: inline-block;
+  width: 33.3333%;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+
+.expense-add-contain{
+  position: relative;
+}
+.push{
+  margin-bottom: 60px;
+}
+
+
+
+
+.expenses-contain{
+
+}
+
+
+.expense-item{
+  padding: 21px 15px;
+  position: relative;
+  background-color: #ffffff;
+}
+.expense-item:nth-of-type(even){
+  background-color: #f7f7f7;
+}
+
+.expense-item:nth-of-type(even) input.input{
+  background-color: #ffffff;
+}
+
+.expense-cost{
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+.expense-description{
+  font-family: sans-serif;
+  font-size: 1.4rem;
+}
+
+
+.expense-edit-form{
+
+}
+
+
+
+.buttons-contain{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.buttons-contain .button{
+  width: 50%;
+  padding: 15px;
+}
+
+
+
+.button{
+  width: 40px;
+  height: 100%;
+  border:none;
+  background-color: transparent;
+  display: inline-block;
+}
+.button.cancel{
+  background-color: #FFE100;
+}
+.button.delete{
+  background-color: #f7435c;
+}
+.button.save{
+  background-color: #aaec91;
+}
+.button.edit{
+  background-color: rgba(226, 221, 221, 0.4);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.button.add{
+  background-color: #0062FF;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ffffff;
+}
+
+
+
+
+input.input{
+  padding: 15px;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+
+
+
+
+
+.stats-contain{
+  padding: 15px;
+}
+
+
